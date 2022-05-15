@@ -3,7 +3,7 @@ WebSocket on Next.js
 
 This is example for WebSocket on Next.js.
 
-![screenshort](./misc/screenshort.gif)
+![screenshort](misc/screenshot.gif)
 
 Log
 --
