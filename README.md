@@ -8,6 +8,8 @@ This is example for WebSocket on Next.js.
 Log
 --
 
+Made from this blog post: https://blog.logrocket.com/implementing-websocket-communication-next-js/
+
 ```sh
 $ yarn create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
 $ yarn add socket.io socket.io-client
