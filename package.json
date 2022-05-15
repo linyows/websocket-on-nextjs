@@ -1,0 +1,43 @@
+{
+  "name": "websocket-on-nextjs",
+  "description": "This is example for websocket on next.js.",
+  "version": "1.0.0",
+  "private": true,
+  "author": "linyows",
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "example",
+    "typescript"
+  ],
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
+    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
+    "commit": "cz"
+  },
+  "dependencies": {
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "socket.io": "4.5.0",
+    "socket.io-client": "4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.33",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.3",
+    "@typescript-eslint/eslint-plugin": "5.23.0",
+    "@typescript-eslint/parser": "5.23.0",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-typescript": "2.7.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "prettier": "2.6.2",
+    "typescript": "4.6.4"
+  }
+}
