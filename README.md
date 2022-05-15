@@ -10,8 +10,7 @@ Log
 
 ```sh
 $ yarn create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
-$ yarn add socket.io
-$ yarn add socket.io-client
+$ yarn add socket.io socket.io-client
 ```
 
 res.socket.server:
